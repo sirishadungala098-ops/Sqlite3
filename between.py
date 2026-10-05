@@ -16,9 +16,7 @@ s_marks integer
 """)
 
 
-
-
-data=[ (20,"vyshu",16,"Java",80),
+data= [(20,"vyshu",16,"Java",80),
 (80,"Sailu",18,"c",90),
 (21,"Sirisha",18,"Python",89),
 (22,"Tulasi",17,"C",85),
@@ -38,11 +36,11 @@ c.executemany("insert into student values(?,?,?,?,?)",data)
 
 c.execute("update student set s_name='Ammu' where s_id=3")
 
-
-
-
 a.commit()
-p=c.execute("select * from student where s_marks>=90 and s_marks<=60")
+p=c.execute("select * from student where s_marks>=60 and s_marks<=90")
 
 for x in p:
     print(x)
+
+
+

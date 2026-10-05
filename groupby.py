@@ -36,7 +36,6 @@ data=[ (20,"vyshu",16,"Java",80),
 
 c.executemany("insert into student values(?,?,?,?,?)",data)
 
-c.execute("update student set s_name='Ammu' where s_id=3")
 
 
 a.commit()

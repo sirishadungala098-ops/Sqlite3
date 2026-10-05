@@ -15,15 +15,6 @@ s_marks integer
 )
 """)
 
-c.execute("""
-insert into student values (21,"Sirisha",17,"python",89),
-insert into student values (20,"vyshu",16,"Java",80),
-insert into student values (80,"Sailu",18,"c",90),
-insert into student values (22,"Tulasi",17,"C",85),
-insert into student values (30,"Varsha",15,"Html",78)]
-
-
-""")
 
 
 
